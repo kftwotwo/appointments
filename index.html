@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Schedule an Appointment</title>
+  </head>
+  <body>
+    <div class="inputForm">
+      <div class="input">
+        <h1>Book an appointment</h1>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+          <label for="date">Date</label>
+          <input type="text" id="date"><br>
+          <label for="start">Start time</label>
+          <input type="text" id="start">
+          <label for="end">End time</label>
+          <input type="text" id="end">
+          <br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="output">
+      <h1>Congratulations, your appointment has been booked!</h1>
+      <p>Please verify that the following information is correct:</p>
+      <ul>
+        <li><p>Name:  <span class="name"></span></p></li>
+        <li><p>Date:  <span class="date"></span></p></li>
+        <ul>
+          <li><p>Start time:  <span class="start"></span></p></li>
+          <li><p>End time:  <span class="end"></span></p></li>
+        </ul>
+      </ul>
+    </div>
+  </body>
+</html>
